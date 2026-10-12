@@ -1,0 +1,72 @@
+{
+  "video": "Shuttle_run.mp4",
+  "cone_distance_ft": 30,
+  "cone_distance_m": 9.144,
+  "calibration_px_per_m": 50.09,
+  "total_shuttle_legs": 7,
+  "total_time_s": 10.334,
+  "splits_s": [
+    0.9,
+    1.367,
+    0.9,
+    2.933,
+    2.3,
+    0.967,
+    0.967
+  ],
+  "peak_speed_ms": 11.0,
+  "avg_speed_ms": 4.39,
+  "peak_accel_ms2": 15.0,
+  "avg_decel_ms2": 10.8,
+  "scout_score": 53.0,
+  "events": [
+    {
+      "event_type": "CONE_A",
+      "frame_idx": 34,
+      "timestamp": 1.1333950953678473,
+      "split_time": 0.0
+    },
+    {
+      "event_type": "CONE_B",
+      "frame_idx": 61,
+      "timestamp": 2.0334441416893734,
+      "split_time": 0.900049046321526
+    },
+    {
+      "event_type": "CONE_A",
+      "frame_idx": 102,
+      "timestamp": 3.400185286103542,
+      "split_time": 1.3667411444141688
+    },
+    {
+      "event_type": "CONE_B",
+      "frame_idx": 129,
+      "timestamp": 4.300234332425068,
+      "split_time": 0.9000490463215254
+    },
+    {
+      "event_type": "CONE_A",
+      "frame_idx": 217,
+      "timestamp": 7.233727520435967,
+      "split_time": 2.9334931880108996
+    },
+    {
+      "event_type": "CONE_B",
+      "frame_idx": 286,
+      "timestamp": 9.533852861035422,
+      "split_time": 2.300125340599455
+    },
+    {
+      "event_type": "CONE_A",
+      "frame_idx": 315,
+      "timestamp": 10.500572207084469,
+      "split_time": 0.9667193460490466
+    },
+    {
+      "event_type": "CONE_B",
+      "frame_idx": 344,
+      "timestamp": 11.467291553133515,
+      "split_time": 0.9667193460490466
+    }
+  ]
+}

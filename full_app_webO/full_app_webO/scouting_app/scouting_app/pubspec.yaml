@@ -1,0 +1,52 @@
+name: scouting_app
+description: Badminton Scouting AI — Field Scout App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP & API
+  http: ^1.2.0
+
+  # Local storage
+  # sqflite only on mobile/desktop — NOT web
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # Video picking — works on web + mobile
+  image_picker: ^1.0.7
+
+  # Video player — works on web + mobile
+  video_player: ^2.8.3
+
+  # UI
+  percent_indicator: ^4.2.3
+  fl_chart: ^0.67.0
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  connectivity_plus: ^5.0.2
+
+  # Mime type detection for web uploads
+  mime: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

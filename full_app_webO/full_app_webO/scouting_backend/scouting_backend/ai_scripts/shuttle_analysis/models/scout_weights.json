@@ -1,0 +1,58 @@
+[
+  {
+    "key": "total_time_s",
+    "weight": 0.30,
+    "best": 3.8,
+    "worst": 7.5,
+    "invert": true,
+    "note": "Elite athletes complete 10m shuttle in ~4s. Lower is better."
+  },
+  {
+    "key": "peak_speed_m_s",
+    "weight": 0.20,
+    "best": 9.5,
+    "worst": 4.0,
+    "invert": false,
+    "note": "Top sprinting speed during the shuttle."
+  },
+  {
+    "key": "avg_decel_m_s2",
+    "weight": 0.15,
+    "best": 12.0,
+    "worst": 2.0,
+    "invert": false,
+    "note": "Explosive braking at turn lines."
+  },
+  {
+    "key": "avg_accel_m_s2",
+    "weight": 0.15,
+    "best": 11.0,
+    "worst": 2.0,
+    "invert": false,
+    "note": "Re-acceleration out of the turn."
+  },
+  {
+    "key": "stride_frequency_hz",
+    "weight": 0.10,
+    "best": 4.5,
+    "worst": 2.0,
+    "invert": false,
+    "note": "Steps per second."
+  },
+  {
+    "key": "stride_length_m",
+    "weight": 0.05,
+    "best": 2.5,
+    "worst": 0.8,
+    "invert": false,
+    "note": "Estimated stride length."
+  },
+  {
+    "key": "fatigue_index",
+    "weight": 0.05,
+    "best": -0.05,
+    "worst": 0.30,
+    "invert": true,
+    "note": "How much slower the last leg was vs the first. Negative = got faster."
+  }
+]
